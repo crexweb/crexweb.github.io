@@ -1,0 +1,1734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <title>Онлайн обменник криптовалют, P2P обмен электронных валют - надежно и быстро</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background: #2e3e57;">
+
+    <header class="header">
+
+        <div class="header__top">
+
+            <div class="container">
+ 
+                <div class="header__wrap">
+
+                    <div class="header__language">
+                        <div class="header__lang">RU</div>
+                        <div class="header__arrow"><img src="images/jsel-orange.png" alt="arrow"></div>
+                    </div>
+
+                    <div class="header__tech">
+                        <span>🌃</span>
+                        <p>Техническая поддержка: 9:00 - 23:00 (UTC+2)</p>
+                    </div>
+
+                </div>
+
+                <div class="header__auth">
+                    <a href="login.html" class="header__login">Войти</a>
+                    <a href="register.html" class="header__reg">Регистрация</a>
+                </div>
+            
+            </div>
+
+        </div>
+
+        <div class="header__bottom">
+            
+            <div class="container">
+
+                <a href="index.html" class="header__logo">
+                    <img src="images/logo.svg" alt="logo">
+                    <p>Автоматический обменник криптовалют</p>
+                </a>
+
+                <div class="header__links">
+                    <a href="faq.html" class="header__link">FAQ</a>
+                    <a href="reviews.html" class="header__link">Отзывы</a>
+                    <a href="news.html" class="header__link">Новости</a>
+                    <a href="rules.html" class="header__link">Правила</a>
+                    <a href="partner.html" class="header__link">Партнёрам</a>
+                    <a href="about.html" class="header__link">О нас</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <main class="main">
+
+        <div class="promo">
+
+            <div class="container">
+
+                <div class="mobile__header">
+                    <a href="index.html" class="mobile__header-left">
+                        <img src="images/logo-white.svg" alt="logo">
+                        <p>Автоматический обменник криптовалют</p>
+                    </a>
+
+                    <div class="mobile__header-menu">
+                        <img src="images/menu-ico.png" alt="menu">
+                    </div>
+                </div>
+
+                <div class="mobile__menu">
+
+                    <div class="mobile__menu-top">
+                        <a href="login.html">Войти</a>
+                        <a href="register.html">Регистрация</a>
+                    </div>
+
+                    <a href="faq.html" class="mobile__menu-link">FAQ</a>
+                    <a href="reviews.html" class="mobile__menu-link">Отзывы</a>
+                    <a href="news.html" class="mobile__menu-link">Новости</a>
+                    <a href="rules.html" class="mobile__menu-link">Правила</a>
+                    <a href="partner.html" class="mobile__menu-link">Партнёрам</a>
+                    <a href="about.html" class="mobile__menu-link">О нас</a>
+
+                    <div class="mobile__menu-button">Language selection</div>
+                    <div class="mobile__menu-button mobile__menu-button-desktop">Перейти на основную версию</div>
+
+                </div>
+
+                <div class="mobile__tab">
+
+                    <div class="mobile__white"></div>
+
+                    <div class="mobile__card mobile__card-first">
+                        <div class="mobile__line mobile__line-first">
+                            <div class="mobile__icon mobile__icon-first"><img src="images/USDT_TRC.png" alt="icon"></div>
+                            <select class="mobile__select mobile__select-first">
+                                <option value="BTC" class="BTC" data-unic="BTC">Bitcoin</option>
+                                <option value="NOT" class="NOT" data-unic="NOT">Notcoin</option>
+                                <option value="XRP" class="XRP" data-unic="XRP">Ripple</option>
+                                <option value="ETC" class="ETC" data-unic="ETC">Ether Classic</option>
+                                <option value="DOT" class="DOT" data-unic="DOT">Polkadot</option>
+                                <option value="BCH" class="BCH" data-unic="BCH">Bitcoin Cash</option>
+                                <option value="DASH" class="DASH" data-unic="DASH">Dash</option>
+                                <option value="DOGE" class="DOGE" data-unic="DOGE">Dogecoin</option>
+                                <option value="ETH" class="ETH" data-unic="ETH">Ethereum</option>
+                                <option value="TON" class="TON" data-unic="TON">Toncoin</option>
+                                <option value="SOL" class="SOL" data-unic="SOL">Solana</option>
+                                <option value="BNB" class="BNB" data-unic="BNB">BNB (BEP20)</option>
+                                <option value="LTC" class="LTC" data-unic="LTC">Litecoin</option>
+                                <option value="TRX" class="TRX" data-unic="TRX">Tron</option>
+                                <option value="DAI" class="DAI" data-unic="DAI">DAI</option>
+                                <option value="ZEC" class="ZEC" data-unic="ZEC">Zcash</option>
+
+                                <option value="USDT" class="USDT" data-unic="USDTTRC20" selected>Tether TRC20</option>
+                                <option value="USDT" class="USDT" data-unic="USDTPOL">Tether POLYGON</option>
+                                <option value="USDT" class="USDT" data-unic="USDTARB">Tether ARBITRUM</option>
+                                <option value="USDT" class="USDT" data-unic="USDTTON">Tether TON</option>
+                                <option value="USDT" class="USDT" data-unic="USDTBEP20">Tether BEP20</option>
+                                <option value="USDT" class="USDT" data-unic="USDTERC20">Tether ERC20</option>
+
+                                <option value="USDC" class="USDC" data-unic="USDCERC20">USDCoin ERC20</option>
+                                <option value="USDC" class="USDC" data-unic="USDCPOL">USDCoin POLYGON</option>
+                                <option value="USDC" class="USDC" data-unic="USDCSOL">USDCoin SOL</option>
+                                
+                                <option value="RUB" class="RUB" data-unic="SBP">СБП RUB</option>
+                                <option value="RUB" class="RUB" data-unic="RUB">Карты RUB</option>
+                                <option value="UAH" class="UAH" data-unic="UAH">Карты UAH</option>
+                            </select>
+                        </div>
+
+                        <input type="text" class="mobile__input mobile__input-first" value="1">
+
+                        <div class="mobile__limit mobile__limit-first">min.: 00 USDT</div>
+                    </div>
+
+                    <div class="mobile__change">
+                        <img src="images/change.png" alt="change">
+                    </div>
+
+                    <div class="mobile__card mobile__card-second">
+                        <div class="mobile__line mobile__line-second">
+                            <div class="mobile__icon mobile__icon-second"><img src="images/MGO.png" alt="icon"></div>
+                            <select  class="mobile__select mobile__select-second">
+                                <option value="BTC" class="BTC" data-unic="BTC">Bitcoin</option>
+                                <option value="DASH" class="DASH" data-unic="DASH">Dash</option>
+                                <option value="DOGE" class="DOGE" data-unic="DOGE">Dogecoin</option>
+                                <option value="ETH" class="ETH" data-unic="ETH">Ethereum</option>
+                                <option value="ADA" class="ADA" data-unic="ADA">Cardano</option>
+                                <option value="ETC" class="ETC" data-unic="ETC">Ether Classic</option>
+                                <option value="BCH" class="BCH" data-unic="BCH">Bitcoin Cash</option>
+                                <option value="XRP" class="XRP" data-unic="XRP">Ripple</option>
+                                <option value="LINK" class="LINK" data-unic="LINK">Chainlink</option>
+                                <option value="DOT" class="DOT" data-unic="DOT">Polkadot</option>
+                                <option value="NOT" class="NOT" data-unic="NOT">Notcoin</option>
+                                <option value="XMR" class="XMR" data-unic="XMR">Monero</option>
+                                <option value="TON" class="TON" data-unic="TON">Toncoin</option>
+                                <option value="SOL" class="SOL" data-unic="SOL">Solana</option>
+                                <option value="BNB" class="BNB" data-unic="BNB">BNB (BEP20)</option>
+                                <option value="LTC" class="LTC" data-unic="LTC">Litecoin</option>
+                                <option value="TRX" class="TRX" data-unic="TRX">Tron</option>
+                                <option value="DAI" class="DAI" data-unic="DAI">DAI</option>
+
+                                <option value="USDT" class="USDT" data-unic="USDTTRC20">Tether TRC20</option>
+                                <option value="USDT" class="USDT" data-unic="USDTERC20">Tether ERC20</option>
+                                <option value="USDT" class="USDT" data-unic="USDTTON">Tether TON</option>
+                                <option value="USDT" class="USDT" data-unic="USDTBEP20">Tether BEP20</option>
+                                <option value="USDT" class="USDT" data-unic="USDTPOL">Tether POLYGON</option>
+                                <option value="USDT" class="USDT" data-unic="USDTARB">Tether ARBITRUM</option>
+
+                                <option value="USDC" class="USDC" data-unic="USDCPOL">USDCoin POLYGON</option>
+                                <option value="USDC" class="USDC" data-unic="USDCSOL">USDCoin SOL</option>
+                                <option value="USDC" class="USDC" data-unic="USDCERC20">USDCoin ERC20</option>
+
+                                <option value="MGO" class="USD" data-unic="MGO" selected>MoneyGo</option>
+                                <option value="OM" class="USD" data-unic="OM">OptiMoney</option>
+                                <option value="EOM" class="USD" data-unic="EOM">eVoucher OM</option>
+                                <option value="VOLET" class="USD" data-unic="VOLET">Volet USD</option>
+                                <option value="UAH" class="UAH" data-unic="UAH">Карты UAH</option>
+                                <option value="TRY" class="TRY" data-unic="TRY_BANK">Банковский счет TRY</option>
+                                <option value="UAH" class="UAH" data-unic="UAH_BANK">Банковский счет UAH</option>
+                                <option value="TRY" class="TRY" data-unic="TRY">Карты TRY</option>
+                                <option value="KGS" class="KGS" data-unic="KGS">Карты KGS</option>
+                                <option value="AZN" class="AZN" data-unic="AZN">Карты AZN</option>
+                                <option value="AMD" class="AMD" data-unic="AMD">Карты AMD</option>
+                                <option value="RUB" class="RUB" data-unic="SBP">СБП RUB</option>
+                                <option value="RUB" class="RUB" data-unic="RUB">Карты RUB</option>
+                                <option value="KZT" class="KZT" data-unic="KZT">Карты KZT</option>
+                            </select>
+
+                        </div>
+
+                        <input type="text" class="mobile__input mobile__input-second">
+
+                        <div class="mobile__limit mobile__limit-second">min.: 00 USDT</div>
+                    </div>
+
+                    <a href="exchange.html" class="mobile__button">Обменять</a>
+
+                    <div class="mobile__info-prices">Курс обмена: 1 USDT = 1.0056 USD</div>
+                    <div class="mobile__info-reserve">Резерв: 148592 USD</div>
+
+                </div>
+
+                <div class="mobile__reserve">
+
+                    <div class="mobile__reserve-title">Резерв валюты</div>
+
+                    <div class="mobile__reserve-block">
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/BTC.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Bitcoin BTC</p>
+                                <span>70</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/USDT_TRC.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Tether USDT</p>
+                                <span>4628343</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/SOL.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Solana SOL</p>
+                                <span>30000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/LINK.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Chainlink LINK</p>
+                                <span>1500</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/USDC.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>USDCoin USDC</p>
+                                <span>200000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/BCH.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Bitcoin Cash BCH</p>
+                                <span>2000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/ETH.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Ethereum ETH</p>
+                                <span>400</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/ETC.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Ether Classic ETC</p>
+                                <span>2000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/NOT.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Notcoin NOT</p>
+                                <span>3000000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/TON.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Toncoin TON</p>
+                                <span>10000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/LTC.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Litecoin LTC</p>
+                                <span>1000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/TRX.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Tron TRX</p>
+                                <span>500000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/DOGE.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Dogecoin DOGE</p>
+                                <span>1000000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/DASH.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Dash DASH</p>
+                                <span>1000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/XMR.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Monero XMR</p>
+                                <span>1000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="images/ADA.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Cardano ADA</p>
+                                <span>300000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/DAI.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>DAI DAI</p>
+                                <span>300000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/DOT.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Polkadot DOT</p>
+                                <span>50000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/BNB.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>BNB (BEP20) BNB</p>
+                                <span>2000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/XRP.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Ripple XRP</p>
+                                <span>70000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/ZEC.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Zcash ZEC</p>
+                                <span>1000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/MO.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>MoneyGo USD</p>
+                                <span>138579</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/OM.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>OptiMoney USD</p>
+                                <span>100000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card" style="display: none;">
+                            <div class="mobile__reserve-picture"><img src="icons/OM.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>eVoucher OM USD</p>
+                                <span>100000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/VOLET_USD.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Volet USD</p>
+                                <span>300000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/VISA_UAH.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Банковская карта UAH</p>
+                                <span>15000000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/TRY.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Банковский счет TRY</p>
+                                <span>12000000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/UAH.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Банковский счет UAH</p>
+                                <span>14000000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/VISA_TRY.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Банковская карта TRY</p>
+                                <span>12500000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/VISA_KGS.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Банковская карта KGS</p>
+                                <span>28000000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/VISA_AZN.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Банковская карта AZN</p>
+                                <span>700000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/VISA_AMD.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Банковская карта AMD</p>
+                                <span>130000000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/SBP.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>СБП RUB</p>
+                                <span>25000000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/VISA_RUB.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Банковская карта RUB</p>
+                                <span>13500000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card">
+                            <div class="mobile__reserve-picture"><img src="icons/VISA_KZT.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Банковская карта KZT</p>
+                                <span>10000000</span>
+                            </div>
+                        </div>
+
+                        <div class="mobile__reserve-card" style="display: none;">
+                            <div class="mobile__reserve-picture"><img src="icons/VISA_KZT.png" alt="icon"></div>
+                            <div class="mobile__reserve-info">
+                                <p>Карты Visa/MasterCard. KZT</p>
+                                <span>10000000</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="mobile__footer mobile__footer-reg">
+                    <div class="mobile__footer-top">наверх</div>
+                    <div class="mobile__footer-desktop">Перейти на основную версию</div>
+                </div>
+
+                <div class="promo__body">
+
+                    <div class="promo__left">
+
+                        <div class="promo__title">Отдаете</div>
+
+                        <div class="promo__bar promo__bar-first">
+                            <div class="promo__choise promo__choise-first promo__choise-active">ВСЕ</div>
+                            <div class="promo__choise promo__choise-first">BTC</div>
+                            <div class="promo__choise promo__choise-first">BCH</div>
+                            <div class="promo__choise promo__choise-first">ADA</div>
+                            <div class="promo__choise promo__choise-first">DASH</div>
+                            <div class="promo__choise promo__choise-first">DOGE</div>
+                            <div class="promo__choise promo__choise-first">ETC</div>
+                            <div class="promo__choise promo__choise-first">NOT</div>
+                            <div class="promo__choise promo__choise-first">DOT</div>
+                            <div class="promo__choise promo__choise-first">XRP</div>
+                            <div class="promo__choise promo__choise-first">LINK</div>
+                            <div class="promo__choise promo__choise-first">ETH</div>
+                            <div class="promo__choise promo__choise-first">TON</div>
+                            <div class="promo__choise promo__choise-first">SOL</div>
+                            <div class="promo__choise promo__choise-first">BNB</div>
+                            <div class="promo__choise promo__choise-first">LTC</div>
+                            <div class="promo__choise promo__choise-first">TRX</div>
+                            <div class="promo__choise promo__choise-first">DAI</div>
+                            <div class="promo__choise promo__choise-first">ZEC</div>
+                            <div class="promo__choise promo__choise-first">USDT</div>
+                            <div class="promo__choise promo__choise-first">USDC</div>
+                            <div class="promo__choise promo__choise-first">USD</div>
+                            <div class="promo__choise promo__choise-first">RUB</div>
+                            <div class="promo__choise promo__choise-first">UAH</div>
+                        </div>
+
+                        <div class="promo__list promo__list-first">
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/BTC.png" alt="valute icon"></div>
+                                <p>Bitcoin</p>
+                                <div class="promo__code">BTC</div>
+                                <div class="promo__unic">BTC</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/NOT.png" alt="valute icon"></div>
+                                <p>Notcoin</p>
+                                <div class="promo__code">NOT</div>
+                                <div class="promo__unic">NOT</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/XRP.png" alt="valute icon"></div>
+                                <p>Ripple</p>
+                                <div class="promo__code">XRP</div>
+                                <div class="promo__unic">XRP</div>
+                            </div>
+
+                            <div class="promo__card promo__card-blocked  crypto">
+                                <div class="promo__icon"><img src="images/LINK.png" alt="valute icon"></div>
+                                <p>Chainlink</p>
+                                <div class="promo__code">LINK</div>
+                                <div class="promo__unic">LINK</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/ETC.png" alt="valute icon"></div>
+                                <p>Ether Classic</p>
+                                <div class="promo__code">ETC</div>
+                                <div class="promo__unic">ETC</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/DOT.png" alt="valute icon"></div>
+                                <p>Polkadot</p>
+                                <div class="promo__code">DOT</div>
+                                <div class="promo__unic">DOT</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/BCH.png" alt="valute icon"></div>
+                                <p>Bitcoin Cash</p>
+                                <div class="promo__code">BCH</div>
+                                <div class="promo__unic">BCH</div>
+                            </div>
+
+                            <div class="promo__card promo__card-blocked crypto">
+                                <div class="promo__icon"><img src="images/ADA.png" alt="valute icon"></div>
+                                <p>Cardano</p>
+                                <div class="promo__code">ADA</div>
+                                <div class="promo__unic">ADA</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/DASH.png" alt="valute icon"></div>
+                                <p>Dash</p>
+                                <div class="promo__code">DASH</div>
+                                <div class="promo__unic">DASH</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/DOGE.png" alt="valute icon"></div>
+                                <p>Dogecoin</p>
+                                <div class="promo__code">DOGE</div>
+                                <div class="promo__unic">DOGE</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/ETH.png" alt="valute icon"></div>
+                                <p>Ethereum</p>
+                                <div class="promo__code">ETH</div>
+                                <div class="promo__unic">ETH</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/TON.png" alt="valute icon"></div>
+                                <p>Toncoin</p>
+                                <div class="promo__code">TON</div>
+                                <div class="promo__unic">TON</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/SOL.png" alt="valute icon"></div>
+                                <p>Solana</p>
+                                <div class="promo__code">SOL</div>
+                                <div class="promo__unic">SOL</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/BNB.png" alt="valute icon"></div>
+                                <p>BNB (BEP20)</p>
+                                <div class="promo__code">BNB</div>
+                                <div class="promo__unic">BNB</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/LTC.png" alt="valute icon"></div>
+                                <p>Litecoin</p>
+                                <div class="promo__code">LTC</div>
+                                <div class="promo__unic">LTC</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/TRX.png" alt="valute icon"></div>
+                                <p>Tron</p>
+                                <div class="promo__code">TRX</div>
+                                <div class="promo__unic">TRX</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/DAI.png" alt="valute icon"></div>
+                                <p>DAI</p>
+                                <div class="promo__code">DAI</div>
+                                <div class="promo__unic">DAI</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/ZEC.png" alt="valute icon"></div>
+                                <p>Zcash</p>
+                                <div class="promo__code">ZEC</div>
+                                <div class="promo__unic">ZEC</div>
+                            </div>
+
+                            <div class="promo__card promo__card-active crypto">
+                                <div class="promo__icon"><img src="images/USDT_TRC.png" alt="valute icon"></div>
+                                <p>Tether TRC20</p>
+                                <div class="promo__code">USDT</div>
+                                <div class="promo__unic">USDTTRC20</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/USDC_POL.png" alt="valute icon"></div>
+                                <p>Tether POLYGON</p>
+                                <div class="promo__code">USDT</div>
+                                <div class="promo__unic">USDTPOL</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/USDT_ARB.png" alt="valute icon"></div>
+                                <p>Tether ARBITRUM</p>
+                                <div class="promo__code">USDT</div>
+                                <div class="promo__unic">USDTARB</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/USDT_TON.png" alt="valute icon"></div>
+                                <p>Tether TON</p>
+                                <div class="promo__code">USDT</div>
+                                <div class="promo__unic">USDTTON</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/USDT_BEP.png" alt="valute icon"></div>
+                                <p>Tether BEP20</p>
+                                <div class="promo__code">USDT</div>
+                                <div class="promo__unic">USDTBEP20</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/USDT_ERC.png" alt="valute icon"></div>
+                                <p>Tether ERC20</p>
+                                <div class="promo__code">USDT</div>
+                                <div class="promo__unic">USDTERC20</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/USDC_ERC.png" alt="valute icon"></div>
+                                <p>USDCoin ERC20</p>
+                                <div class="promo__code">USDC</div>
+                                <div class="promo__unic">USDCERC20</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/USDC_POL.png" alt="valute icon"></div>
+                                <p>USDCoin POLYGON</p>
+                                <div class="promo__code">USDC</div>
+                                <div class="promo__unic">USDCPOL</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/USDC_SOL.png" alt="valute icon"></div>
+                                <p>USDCoin SOL</p>
+                                <div class="promo__code">USDC</div>
+                                <div class="promo__unic">USDCSOL</div>
+                            </div>
+
+                            <div class="promo__card promo__card-blocked fiat">
+                                <div class="promo__icon"><img src="images/MGO.png" alt="valute icon"></div>
+                                <p>MoneyGo</p>
+                                <div class="promo__code">USD</div>
+                                <div class="promo__unic">MGO</div>
+                            </div>
+
+                            <div class="promo__card promo__card-blocked fiat">
+                                <div class="promo__icon"><img src="images/OM.png" alt="valute icon"></div>
+                                <p>OptiMoney</p>
+                                <div class="promo__code">USD</div>
+                                <div class="promo__unic">OM</div>
+                            </div>
+                            
+                            <div class="promo__card promo__card-blocked fiat">
+                                <div class="promo__icon"><img src="images/OME.png" alt="valute icon"></div>
+                                <p>eVoucher OM</p>
+                                <div class="promo__code">USD</div>
+                                <div class="promo__unic">EOM</div>
+                            </div>
+                            
+                            <div class="promo__card promo__card-blocked fiat">
+                                <div class="promo__icon"><img src="images/VOLET_USD.png" alt="valute icon"></div>
+                                <p>Volet USD</p>
+                                <div class="promo__code">USD</div>
+                                <div class="promo__unic">VOLET</div>
+                            </div>
+
+                            <div class="promo__card fiat">
+                                <div class="promo__icon"><img src="images/SBP.png" alt="valute icon"></div>
+                                <p>СБП RUB</p>
+                                <div class="promo__code">RUB</div>
+                                <div class="promo__unic">SBP</div>
+                            </div>
+
+                            <div class="promo__card fiat">
+                                <div class="promo__icon"><img src="images/VISA_RUB.png" alt="valute icon"></div>
+                                <p>Карты RUB</p>
+                                <div class="promo__code">RUB</div>
+                                <div class="promo__unic">RUB</div>
+                            </div>
+                            
+                            <div class="promo__card promo__card-blocked fiat">
+                                <div class="promo__icon"><img src="images/VISA_UAH.png" alt="valute icon"></div>
+                                <p>Карты UAH</p>
+                                <div class="promo__code">UAH</div>
+                                <div class="promo__unic">UAH</div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="promo__right">
+
+                        <div class="promo__title">Получаете</div>
+
+                        <div class="promo__bar">
+                            <div class="promo__choise promo__choise-second promo__choise-active">ВСЕ</div>
+                            <div class="promo__choise promo__choise-second">RUB</div>
+                            <div class="promo__choise promo__choise-second">UAH</div>
+                            <div class="promo__choise promo__choise-second">TRY</div>
+                            <div class="promo__choise promo__choise-second">KGS</div>
+                            <div class="promo__choise promo__choise-second">AZN</div>
+                            <div class="promo__choise promo__choise-second">AMD</div>
+                            <div class="promo__choise promo__choise-second">KZT</div>
+                            <div class="promo__choise promo__choise-second">USD</div>
+                            <div class="promo__choise promo__choise-second">USDT</div>
+                            <div class="promo__choise promo__choise-second">USDC</div>
+                            <div class="promo__choise promo__choise-second">TRX</div>
+                            <div class="promo__choise promo__choise-second">BNB</div>
+                            <div class="promo__choise promo__choise-second">TON</div>
+                            <div class="promo__choise promo__choise-second">SOL</div>
+                            <div class="promo__choise promo__choise-second">BTC</div>
+                            <div class="promo__choise promo__choise-second">LTC</div>
+                            <div class="promo__choise promo__choise-second">ETH</div>
+                            <div class="promo__choise promo__choise-second">ETC</div>
+                            <div class="promo__choise promo__choise-second">DOGE</div>
+                            <div class="promo__choise promo__choise-second">DASH</div>
+                            <div class="promo__choise promo__choise-second">ADA</div>
+                            <div class="promo__choise promo__choise-second">BCH</div>
+                            <div class="promo__choise promo__choise-second">XMR</div>
+                            <div class="promo__choise promo__choise-second">NOT</div>
+                            <div class="promo__choise promo__choise-second">DOT</div>
+                            <div class="promo__choise promo__choise-second">XRP</div>
+                            <div class="promo__choise promo__choise-second">LINK</div>
+                            <div class="promo__choise promo__choise-second">DAI</div>
+                        </div>
+
+                        <div class="promo__list promo__list-second">
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/BTC.png" alt="valute icon"></div>
+                                <p>Bitcoin</p>
+                                <div class="promo__code">BTC</div>
+                                <div class="promo__unic">BTC</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/DASH.png" alt="valute icon"></div>
+                                <p>Dash</p>
+                                <div class="promo__code">DASH</div>
+                                <div class="promo__unic">DASH</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/DOGE.png" alt="valute icon"></div>
+                                <p>Dogecoin</p>
+                                <div class="promo__code">DOGE</div>
+                                <div class="promo__unic">DOGE</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/ETH.png" alt="valute icon"></div>
+                                <p>Ethereum</p>
+                                <div class="promo__code">ETH</div>
+                                <div class="promo__unic">ETH</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/ADA.png" alt="valute icon"></div>
+                                <p>Cardano</p>
+                                <div class="promo__code">ADA</div>
+                                <div class="promo__unic">ADA</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/ETC.png" alt="valute icon"></div>
+                                <p>Ether Classic</p>
+                                <div class="promo__code">ETC</div>
+                                <div class="promo__unic">ETC</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/BCH.png" alt="valute icon"></div>
+                                <p>Bitcoin Cash</p>
+                                <div class="promo__code">BCH</div>
+                                <div class="promo__unic">BCH</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/XRP.png" alt="valute icon"></div>
+                                <p>Ripple</p>
+                                <div class="promo__code">XRP</div>
+                                <div class="promo__unic">XRP</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/LINK.png" alt="valute icon"></div>
+                                <p>Chainlink</p>
+                                <div class="promo__code">LINK</div>
+                                <div class="promo__unic">LINK</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/DOT.png" alt="valute icon"></div>
+                                <p>Polkadot</p>
+                                <div class="promo__code">DOT</div>
+                                <div class="promo__unic">DOT</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/NOT.png" alt="valute icon"></div>
+                                <p>Notcoin</p>
+                                <div class="promo__code">NOT</div>
+                                <div class="promo__unic">NOT</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/XMR.png" alt="valute icon"></div>
+                                <p>Monero</p>
+                                <div class="promo__code">XMR</div>
+                                <div class="promo__unic">XMR</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/TON.png" alt="valute icon"></div>
+                                <p>Toncoin</p>
+                                <div class="promo__code">TON</div>
+                                <div class="promo__unic">TON</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/SOL.png" alt="valute icon"></div>
+                                <p>Solana</p>
+                                <div class="promo__code">SOL</div>
+                                <div class="promo__unic">SOL</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/BNB.png" alt="valute icon"></div>
+                                <p>BNB (BEP20)</p>
+                                <div class="promo__code">BNB</div>
+                                <div class="promo__unic">BNB</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/LTC.png" alt="valute icon"></div>
+                                <p>Litecoin</p>
+                                <div class="promo__code">LTC</div>
+                                <div class="promo__unic">LTC</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/TRX.png" alt="valute icon"></div>
+                                <p>Tron</p>
+                                <div class="promo__code">TRX</div>
+                                <div class="promo__unic">TRX</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/DAI.png" alt="valute icon"></div>
+                                <p>DAI</p>
+                                <div class="promo__code">DAI</div>
+                                <div class="promo__unic">DAI</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/USDT_TRC.png" alt="valute icon"></div>
+                                <p>Tether TRC20</p>
+                                <div class="promo__code">USDT</div>
+                                <div class="promo__unic">USDTTRC20</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/USDT_ERC.png" alt="valute icon"></div>
+                                <p>Tether ERC20</p>
+                                <div class="promo__code">USDT</div>
+                                <div class="promo__unic">USDTERC20</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/USDT_TON.png" alt="valute icon"></div>
+                                <p>Tether TON</p>
+                                <div class="promo__code">USDT</div>
+                                <div class="promo__unic">USDTTON</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/USDT_BEP.png" alt="valute icon"></div>
+                                <p>Tether BEP20</p>
+                                <div class="promo__code">USDT</div>
+                                <div class="promo__unic">USDTBEP20</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/USDC_POL.png" alt="valute icon"></div>
+                                <p>Tether POLYGON</p>
+                                <div class="promo__code">USDT</div>
+                                <div class="promo__unic">USDTPOL</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/USDT_ARB.png" alt="valute icon"></div>
+                                <p>Tether ARBITRUM</p>
+                                <div class="promo__code">USDT</div>
+                                <div class="promo__unic">USDTARB</div>
+                            </div>
+
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/USDC_POL.png" alt="valute icon"></div>
+                                <p>USDCoin POLYGON</p>
+                                <div class="promo__code">USDC</div>
+                                <div class="promo__unic">USDCPOL</div>
+                            </div>
+                            
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/USDC_SOL.png" alt="valute icon"></div>
+                                <p>USDCoin SOL</p>
+                                <div class="promo__code">USDC</div>
+                                <div class="promo__unic">USDCSOL</div>
+                            </div>
+                            
+                            <div class="promo__card crypto">
+                                <div class="promo__icon"><img src="images/USDC_ERC.png" alt="valute icon"></div>
+                                <p>USDCoin ERC20</p>
+                                <div class="promo__code">USDC</div>
+                                <div class="promo__unic">USDCERC20</div>
+                            </div>
+                            
+                            <div class="promo__card promo__card-active fiat">
+                                <div class="promo__icon"><img src="images/MGO.png" alt="valute icon"></div>
+                                <p>MoneyGo</p>
+                                <div class="promo__code">USD</div>
+                                <div class="promo__unic">MGO</div>
+                            </div>
+                            
+                            <div class="promo__card fiat">
+                                <div class="promo__icon"><img src="images/OM.png" alt="valute icon"></div>
+                                <p>OptiMoney</p>
+                                <div class="promo__code">USD</div>
+                                <div class="promo__unic">OM</div>
+                            </div>
+                            
+                            <div class="promo__card fiat">
+                                <div class="promo__icon"><img src="images/OME.png" alt="valute icon"></div>
+                                <p>eVoucher OM</p>
+                                <div class="promo__code">USD</div>
+                                <div class="promo__unic">EOM</div>
+                            </div>
+                            
+                            <div class="promo__card fiat">
+                                <div class="promo__icon"><img src="images/VOLET_USD.png" alt="valute icon"></div>
+                                <p>Volet USD</p>
+                                <div class="promo__code">USD</div>
+                                <div class="promo__unic">VOLET</div>
+                            </div>
+                            
+                            <!-- <div class="promo__card fiat">
+                                <div class="promo__icon"><img src="images/PKR.png" alt="valute icon"></div>
+                                <p>Банковский счет PKR</p>
+                                <div class="promo__code">PKR</div>
+                            </div> -->
+
+                            <!-- NEW VALUTES START -->
+
+                            <div class="promo__card fiat">
+                                <div class="promo__icon"><img src="images/VISA_UAH.png" alt="valute icon"></div>
+                                <p>Карты UAH</p>
+                                <div class="promo__code">UAH</div>
+                                <div class="promo__unic">UAH</div>
+                            </div>
+
+                            <div class="promo__card fiat">
+                                <div class="promo__icon"><img src="images/TRY.png" alt="valute icon"></div>
+                                <p>Банковский счет TRY</p>
+                                <div class="promo__code">TRY</div>
+                                <div class="promo__unic">TRY_BANK</div>
+                            </div>
+
+                            <div class="promo__card fiat">
+                                <div class="promo__icon"><img src="images/UAH.png" alt="valute icon"></div>
+                                <p>Банковский счет UAH</p>
+                                <div class="promo__code">UAH</div>
+                                <div class="promo__unic">UAH_BANK</div>
+                            </div>
+
+                            <div class="promo__card fiat">
+                                <div class="promo__icon"><img src="images/VISA_TRY.png" alt="valute icon"></div>
+                                <p>Карты TRY</p>
+                                <div class="promo__code">TRY</div>
+                                <div class="promo__unic">TRY</div>
+                            </div>
+
+                            <div class="promo__card fiat">
+                                <div class="promo__icon"><img src="images/VISA_KGS.png" alt="valute icon"></div>
+                                <p>Карты KGS</p>
+                                <div class="promo__code">KGS</div>
+                                <div class="promo__unic">KGS</div>
+                            </div>
+
+                            <div class="promo__card fiat">
+                                <div class="promo__icon"><img src="images/VISA_AZN.png" alt="valute icon"></div>
+                                <p>Карты AZN</p>
+                                <div class="promo__code">AZN</div>
+                                <div class="promo__unic">AZN</div>
+                            </div>
+
+                            <div class="promo__card fiat">
+                                <div class="promo__icon"><img src="images/VISA_AMD.png" alt="valute icon"></div>
+                                <p>Карты AMD</p>
+                                <div class="promo__code">AMD</div>
+                                <div class="promo__unic">AMD</div>
+                            </div>
+
+                            <div class="promo__card fiat">
+                                <div class="promo__icon"><img src="images/SBP.png" alt="valute icon"></div>
+                                <p>СБП RUB</p>
+                                <div class="promo__code">RUB</div>
+                                <div class="promo__unic">SBP</div>
+                            </div>
+
+                            <div class="promo__card fiat">
+                                <div class="promo__icon"><img src="images/VISA_RUB.png" alt="valute icon"></div>
+                                <p>Карты RUB</p>
+                                <div class="promo__code">RUB</div>
+                                <div class="promo__unic">RUB</div>
+                            </div>
+
+                            <!-- NEW VALUTES END -->
+
+                            <div class="promo__card fiat">
+                                <div class="promo__icon"><img src="images/VISA_KZT.png" alt="valute icon"></div>
+                                <p>Карты KZT</p>
+                                <div class="promo__code">KZT</div>
+                                <div class="promo__unic">KZT</div>
+                            </div>
+                            
+                            <div class="promo__card promo__card-blocked fiat">
+                                <div class="promo__icon"><img src="images/MINE.png" alt="valute icon"></div>
+                                <p>Мой счёт</p>
+                                <div class="promo__code">USD</div>
+                                <div class="promo__unic">MINE</div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="promo__form">
+
+                        <div class="promo__inputs">
+                            <input type="text" class="promo__input promo__input-first" value="1">
+                            <div class="promo__open promo__open-first">
+                                <div class="promo__name promo__name-first">USDT</div>
+                                <img src="images/jsel-orange.png" alt="arrow">
+
+                                <div class="promo__select promo__select-first">USDT</div>
+                            </div>
+                            <div class="promo__limits promo__limits-first">min.: 0 USDT</div>
+                        </div>
+
+                        <div class="promo__inputs">
+                            <input type="text" class="promo__input promo__input-second" value="0">
+                            <div class="promo__open promo__open-second">
+                                <div class="promo__name promo__name-second">USD</div>
+                                <img src="images/jsel-orange.png" alt="arrow">
+
+                                <div class="promo__select promo__select-second">USD</div>
+                            </div>
+                            <div class="promo__limits promo__limits-second">max.: 0 USD</div>
+
+                            <div class="promo__table"><p>Курс обмена: </p><span>0 USDT = 0 USD</span></div>
+                            <div class="promo__reserve"><p>Резерв: </p><span>0 USD</span></div>
+                        </div>
+
+                        <div class="promo__loader">
+                            <img src="images/loader.gif" alt="loader">
+                        </div>
+
+                    </div>
+
+                    <div class="promo__none">
+                        <p>Выбранное направление временно не работает</p>
+
+                        <div class="promo__loader">
+                            <img src="images/loader.gif" alt="loader">
+                        </div>
+                    </div>
+
+                    <div class="promo__bottom">
+                        <a href="exchange.html" class="promo__button">Обменять</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="news">
+
+            <div class="container">
+
+                <a href="news.html" class="news__title">Новости</a>
+
+                <div class="news__body">
+
+                    <a href="kripto-daydzhest-ot-mine-exchange-2-8-dekabrya.html" class="news__card">
+                        <div class="news__picture"><img src="images/post/post1.png" alt="picture"></div>
+                        <div class="news__info">
+                            <p>ЕС оштрафовал X на €120 млн, Роналду вошёл в капитал Perplexity AI, а МВФ предупредил о рисках стейблкоинов%</p>
+                            <span>08.12.2025</span>
+                        </div>
+                    </a>
+                    <a href="kripto-daydzhest-ot-mine-exchange-25-noyabrya-1-dekabrya.html" class="news__card">
+                        <div class="news__picture"><img src="images/post/post2.png" alt="picture"></div>
+                        <div class="news__info">
+                            <p>Telegram запускает децентрализованную ИИ-сеть на TON, Китай подтвердил нелегальность</p>
+                            <span>01.12.2025</span>
+                        </div>
+                    </a>
+                    <a href="kripto-daydzhest-ot-mine-exchange-18-24-noyabrya.html" class="news__card">
+                        <div class="news__picture"><img src="images/news1.png" alt="picture"></div>
+                        <div class="news__info">
+                            <p>Mastercard и Polygon упрощают криптопереводы, Google запускает модель Gemini 3, а доля альткоинов на Binance выросла до 60%</p>
+                            <span>24.11.2025</span>
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="index-decor">
+
+                <div class="container container-middle">
+
+                <div class="reserve">
+
+                    <div class="reserve__title">Резерв валюты</div>
+
+                    <div class="reserve__block">
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/BTC.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Bitcoin BTC</p>
+                                <span>70</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/USDT_TRC.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Tether USDT</p>
+                                <span>4628343</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/SOL.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Solana SOL</p>
+                                <span>30000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/LINK.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Chainlink LINK</p>
+                                <span>1500</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/USDC.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>USDCoin USDC</p>
+                                <span>200000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/BCH.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Bitcoin Cash BCH</p>
+                                <span>2000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/ETH.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Ethereum ETH</p>
+                                <span>400</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/ETC.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Ether Classic ETC</p>
+                                <span>2000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/NOT.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Notcoin NOT</p>
+                                <span>3000000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/TON.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Toncoin TON</p>
+                                <span>10000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/LTC.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Litecoin LTC</p>
+                                <span>1000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/TRX.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Tron TRX</p>
+                                <span>500000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/DOGE.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Dogecoin DOGE</p>
+                                <span>1000000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/DASH.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Dash DASH</p>
+                                <span>1000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/XMR.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Monero XMR</p>
+                                <span>1000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="images/ADA.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Cardano ADA</p>
+                                <span>300000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/DAI.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>DAI DAI</p>
+                                <span>300000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/DOT.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Polkadot DOT</p>
+                                <span>50000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/BNB.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>BNB (BEP20) BNB</p>
+                                <span>2000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/XRP.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Ripple XRP</p>
+                                <span>70000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/ZEC.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Zcash ZEC</p>
+                                <span>1000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/MO.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>MoneyGo USD</p>
+                                <span>138579</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/OM.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>OptiMoney USD</p>
+                                <span>100000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card" style="display: none;">
+                            <div class="reserve__icon"><img src="icons/OM.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>eVoucher OM USD</p>
+                                <span>100000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/VOLET_USD.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Volet USD</p>
+                                <span>300000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/VISA_UAH.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Банковская карта UAH</p>
+                                <span>15000000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card" style="display: none;">
+                            <div class="reserve__icon"><img src="icons/VISA_UAH.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Карты UAH</p>
+                                <span>15000000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/TRY.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Банковский счет TRY</p>
+                                <span>12000000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/UAH.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Банковский счет UAH</p>
+                                <span>14000000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/VISA_TRY.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Банковская карта TRY</p>
+                                <span>12500000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card" style="display: none;">
+                            <div class="reserve__icon"><img src="icons/VISA_TRY.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Карты TRY</p>
+                                <span>12500000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/VISA_KGS.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Банковская карта KGS</p>
+                                <span>28000000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card" style="display: none;">
+                            <div class="reserve__icon"><img src="icons/VISA_KGS.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Карты KGS</p>
+                                <span>28000000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/VISA_AZN.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Банковская карта AZN</p>
+                                <span>700000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card" style="display: none;">
+                            <div class="reserve__icon"><img src="icons/VISA_AZN.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Карты AZN</p>
+                                <span>700000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/VISA_AMD.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Банковская карта AMD</p>
+                                <span>130000000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card" style="display: none;">
+                            <div class="reserve__icon"><img src="icons/VISA_AMD.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Карты AMD</p>
+                                <span>130000000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/SBP.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>СБП RUB</p>
+                                <span>25000000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/VISA_RUB.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Банковская карта RUB</p>
+                                <span>13500000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card" style="display: none;">
+                            <div class="reserve__icon"><img src="icons/VISA_RUB.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Карты RUB</p>
+                                <span>13500000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/VISA_KZT.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Банковская карта KZT</p>
+                                <span>10000000</span>
+                            </div>
+                        </div>
+
+                        <div class="reserve__card" style="display: none;">
+                            <div class="reserve__icon"><img src="icons/VISA_KZT.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Карты KZT</p>
+                                <span>10000000</span>
+                            </div>
+                        </div>
+
+                        <!-- <div class="reserve__card">
+                            <div class="reserve__icon"><img src="icons/PKR.png" alt="icon"></div>
+                            <div class="reserve__info">
+                                <p>Банковский счет.. PKR</p>
+                                <span>1500000</span>
+                            </div>
+                        </div> -->
+
+                    </div>
+
+                </div>
+
+                <div class="popular">
+                    <div class="popular__title">Популярные направления обмена</div>
+
+                    <div class="popular__block">
+                        <a href="exchange.html?UAH_to_USDTTRC20" class="popular__card">
+                            <img src="images/right-arrow.png" alt="arrow">
+                            <p>Visa/MasterCard (UAH) → Tether TRC20 USDT</p>
+                        </a>
+
+                        <a href="exchange.html?BTC_to_USDTTRC20" class="popular__card">
+                            <img src="images/right-arrow.png" alt="arrow">
+                            <p>Bitcoin → Tether TRC20 USDT</p>
+                        </a>
+
+                        <a href="exchange.html?SOL_to_VOLET" class="popular__card">
+                            <img src="images/right-arrow.png" alt="arrow">
+                            <p>Solana SOL → Volet USD</p>
+                        </a>
+
+                        <a href="exchange.html?TRX_to_KZT" class="popular__card">
+                            <img src="images/right-arrow.png" alt="arrow">
+                            <p>Tron TRX → Visa/MasterCard (KZT)</p>
+                        </a>
+
+                        <a href="exchange.html?NOT_to_DAI" class="popular__card">
+                            <img src="images/right-arrow.png" alt="arrow">
+                            <p>Notcoin NOT → Dai DAI</p>
+                        </a>
+
+                        <a href="exchange.html?ETC_to_USDCSOL" class="popular__card">
+                            <img src="images/right-arrow.png" alt="arrow">
+                            <p>Ether Classic ETC → USDCoin SOL USDC</p>
+                        </a>
+
+                        <a href="exchange.html?TON_to_USDTBEP20" class="popular__card">
+                            <img src="images/right-arrow.png" alt="arrow">
+                            <p>Toncoin TON → Tether BEP20 USDT</p>
+                        </a>
+
+                        <a href="exchange.html?USDTBEP20_to_ETH" class="popular__card">
+                            <img src="images/right-arrow.png" alt="arrow">
+                            <p>Tether BEP20 USDT → Ethereum ETH</p>
+                        </a>
+
+                        <a href="exchange.html?ZEC_to_BCH" class="popular__card">
+                            <img src="images/right-arrow.png" alt="arrow">
+                            <p>Zcash ZEC → Bitcoin Cash BCH</p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="review">
+
+            <div class="container">
+
+                <a href="reviews.html" class="review__title">Отзывы</a>
+
+                <div class="review__block">
+
+                    <a href="reviews.html" class="review__card">
+                        <p>Первый раз пользовалась этим обменники — все понятно, обмен прошел быстро. В течение 10 минут деньги зачислили. Спасибо.</p>
+                        <span>Макс, 19.11.2025, 18:12</span>
+                        <img src="images/quote_white.png" alt="quote">
+                    </a>
+
+                    <a href="reviews.html" class="review__card">
+                        <p>Обменивал BTC на рубли. Средства были зачислены в течении 14 минут двумя платежами по 20000 и 10000 руб.</p>
+                        <span>Ваше имя, 28.08.2025, 17:47</span>
+                        <img src="images/quote_white.png" alt="quote">
+                    </a>
+
+                    <a href="reviews.html" class="review__card">
+                        <p>Обменник отличный! Все операции проходят быстро, без задержек и каких-либо проблем. Особенно радует автоматическая проверка и мгновенное подтверждение транзакций. Очень удобно и надежно, рекомендую!</p>
+                        <span>Aliak, 05.08.2025, 13:01</span>
+                        <img src="images/quote_white.png" alt="quote">
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer__body">
+
+                <div class="footer__left">
+
+                    <div class="footer__top">
+                        <p>Обменный пункт электронных валют</p>
+                        <p>MINE.exchange. Все права защищены © 2025</p>
+                        <a href="mailto:info@mine.exchange">info@mine.exchange</a>
+                    </div>
+
+                    <div class="footer__links">
+                        <a href="reviews.html" class="footer__link">Отзывы</a>
+                        <a href="rules.html" class="footer__link">Правила сайта</a>
+                        <a href="partnersfaq.html" class="footer__link">Партнёрам</a>
+                        <a href="faq.html" class="footer__link">Вопрос / Ответ</a>
+                        <a href="states.html" class="footer__link">Статьи</a>
+                        <a href="contact.html" class="footer__link">Контакты</a>
+                        <a href="politic.html" class="footer__link">Политика конфиденциальности</a>
+                        <a href="map.html" class="footer__link">Карта сайта</a>
+                        <a href="aml.html" class="footer__link">AML/CTF и KYC Политика</a>
+                        <a href="info.html" class="footer__link">Информация о валютах</a>
+                        <a href="credit.html" class="footer__link footer__link-last">Криптозаймы</a>
+                    </div>
+
+                    <div class="footer__mobile">
+                        <img src="images/mobile.png" alt="mobile">
+                        <p>Мобильная версия</p>
+                    </div>
+
+                </div>
+
+                <div class="footer__right">
+                    <a href="https://www.bestchange.ru/mine-exchanger.html" class="footer__partner"><img src="images/bestchange.gif" alt="partner"></a>
+                    <a href="https://wellcrypto.io/ru/exchangers/" class="footer__partner"><img src="images/wellcrypto.svg" alt="partner"></a>
+                    <a href="https://bitcoinmarket.global/exchanger.php?id=63" class="footer__partner"><img src="images/btcmarket.gif" alt="partner"></a>
+                    <a href="https://bits.media/exchanger/mine-exchange/" class="footer__partner"><img src="images/bits.png" alt="partner"></a>
+                    <a href="https://kursoff.biz/exchangers/mineexchange" class="footer__partner"><img src="images/kursoff.png" alt="partner"></a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <div class="topped"><img src="images/topped.png" alt="topped"></div>
+
+    <script src="js/script.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <title>Оплата</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="min-width: auto; background: #eaeaea">
+
+    <div class="copied">
+        <img src="images/check.png" alt="check">
+        <p>Скопировано <span>0000</span></p>
+    </div>
+
+    <div class="pay">
+
+        <div class="pay__top">
+            <a href="index.html"><img src="images/logo7.svg" alt="logo"></a>
+        </div>
+
+        <div class="pay__title">
+            <p>Обмен Ripple XRP на Tether TRC20 USDT</p>
+        </div>
+
+        <div class="pay__body">
+
+            <div class="pay-container">
+
+                <div class="pay__table">
+                    <p>Курс не зафиксирован (прошло более <strong>01:00</strong> мин) и будет пересчитан по текущему на момент прихода транзакции.<br>Текущий курс: <span>1 : 1.9043999999303</span>.</p>
+                </div>
+
+                <div class="pay__subtitle">Для оплаты заказа #00000000</div>
+
+                <div class="pay__table">
+                    <div class="pay__info">Отправьте сумму <span class="num">0 <img src="images/copy.svg" alt="copy" class="copy1"></span> <span class="unic">XRP</span> на:<br><span class="wallet">wallet-address <img src="images/copy.svg" alt="copy" class="copy2"></span></div>
+
+                    <div class="pay__memo">⚠️ При переводе <strong>необходимо</strong> указать MEMO, иначе заказ не будет засчитан автоматически. MEMO: <span>000000000000 <img src="images/copy.svg" alt="icon" class="copy3"></span></div>
+                </div>
+
+                <div class="pay__qr">
+                    <img src="images/qr.png" alt="qr">
+                </div>
+
+                <a href="bid_auth.html" class="pay__back">Вернуться на страницу заявки</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="js/payment.js"></script>
+</body>
+</html>
