@@ -1,0 +1,122 @@
+# ─────────────────────────────────────────────────────────────
+# Tarolex — гадание на Таро онлайн
+# robots.txt (2025) — максимально SEO-дружелюбный вариант
+# ─────────────────────────────────────────────────────────────
+
+User-agent: *
+Allow: /
+
+# Разрешаем индексировать все основные страницы
+Allow: /index.html
+Allow: /chat.html
+Allow: /yes_or_not.html
+Allow: /love.html
+Allow: /mind.html
+
+# Разрешаем всё содержимое папок с картинками, стилями и скриптами
+Allow: /images/
+Allow: /css/
+Allow: /js/
+Allow: /fonts/
+
+# Закрываем служебные и технические папки
+Disallow: /sessions/
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /cgi-bin/
+Disallow: /*.json$
+Disallow: /*?s=
+Disallow: /*?l=
+Disallow: /*?y=
+Disallow: /*?w=
+Disallow: /api/
+
+# Защита от индексации дублей с параметрами (чтобы не было 100500 одинаковых страниц)
+Disallow: /*?*
+
+# Яндекс — самый важный гость
+User-agent: Yandex
+Allow: /
+Allow: /images/
+Allow: /css/
+Allow: /js/
+Disallow: /sessions/
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /*?*
+Crawl-delay: 2
+Clean-param: s&l&y&w /chat.html /yes_or_not.html /love.html /mind.html
+
+# Google — тоже любим
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Остальные боты
+User-agent: *
+Crawl-delay: 3
+Disallow: /api/
+Disallow: /sessions/
+
+# ─────────────────────────────────────────────────────────────
+# Tarolex — гадание на Таро онлайн
+# robots.txt (2025) — максимально SEO-дружелюбный вариант
+# ─────────────────────────────────────────────────────────────
+
+User-agent: *
+Allow: /
+
+# Разрешаем индексировать все основные страницы
+Allow: /index.html
+Allow: /chat.html
+Allow: /yes_or_not.html
+Allow: /love.html
+Allow: /mind.html
+
+# Разрешаем всё содержимое папок с картинками, стилями и скриптами
+Allow: /images/
+Allow: /css/
+Allow: /js/
+Allow: /fonts/
+
+# Закрываем служебные и технические папки
+Disallow: /sessions/
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /cgi-bin/
+Disallow: /*.json$
+Disallow: /*?s=
+Disallow: /*?l=
+Disallow: /*?y=
+Disallow: /*?w=
+Disallow: /api/
+
+# Защита от индексации дублей с параметрами (чтобы не было 100500 одинаковых страниц)
+Disallow: /*?*
+
+# Яндекс — самый важный гость
+User-agent: Yandex
+Allow: /
+Allow: /images/
+Allow: /css/
+Allow: /js/
+Disallow: /sessions/
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /*?*
+Crawl-delay: 2
+Clean-param: s&l&y&w /chat.html /yes_or_not.html /love.html /mind.html
+
+# Google — тоже любим
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Остальные боты
+User-agent: *
+Crawl-delay: 3
+Disallow: /api/
+Disallow: /sessions/
+
+# Ссылка на карту сайта
+Sitemap: https://tarolex.ru/sitemap.xml
