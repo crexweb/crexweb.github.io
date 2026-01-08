@@ -104,11 +104,11 @@ if ( document.querySelector('.mobile__header-menu') ) {
     document.querySelector('.mobile__header-menu').addEventListener('click', event => {
     if ( activeMenu == false ) {
         document.querySelector('.mobile__menu').style.right = "0px";
-        document.querySelector('.mobile__header-menu img').src = "../images/menu-ico-active.png";
+        document.querySelector('.mobile__header-menu img').src = "images/menu-ico-active.png";
         activeMenu = true;
     } else {
         document.querySelector('.mobile__menu').style.right = "-640px";
-        document.querySelector('.mobile__header-menu img').src = "../images/menu-ico.png";
+        document.querySelector('.mobile__header-menu img').src = "images/menu-ico.png";
         activeMenu = false;
     }
 })
