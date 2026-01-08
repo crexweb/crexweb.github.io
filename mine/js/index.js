@@ -432,15 +432,15 @@ function checkingCoupleValutes(trigger) {
 
         // Создание ссылки на второй экран
 
-        document.querySelector('.promo__button').href = `/exchange.html?${unicFirstValute}_to_${unicSecondValute}`;
-        document.querySelector('.mobile__button').href = `/exchange.html?${unicFirstValute}_to_${unicSecondValute}`;
+        document.querySelector('.promo__button').href = `exchange.html?${unicFirstValute}_to_${unicSecondValute}`;
+        document.querySelector('.mobile__button').href = `exchange.html?${unicFirstValute}_to_${unicSecondValute}`;
         
     }, 1000 )
     
 }
 
-document.querySelector('.promo__button').href = `/exchange.html?${unicFirstValute}_to_${unicSecondValute}`;
-document.querySelector('.mobile__button').href = `/exchange.html?${unicFirstValute}_to_${unicSecondValute}`;
+document.querySelector('.promo__button').href = `exchange.html?${unicFirstValute}_to_${unicSecondValute}`;
+document.querySelector('.mobile__button').href = `exchange.html?${unicFirstValute}_to_${unicSecondValute}`;
 
 document.querySelector('.promo__button').addEventListener('click', event => {
     if ( !activeExButton ) {
@@ -923,7 +923,7 @@ document.querySelector('.mobile__change').addEventListener('click', event => {
         unicFirstValute = "BTC";
         codeFirstValute = "BTC";
         firstType = "crypto"
-        document.querySelector('.mobile__icon-first img').src = "../images/BTC.png";
+        document.querySelector('.mobile__icon-first img').src = "images/BTC.png";
         const select = document.querySelector('.mobile__select-first');
         [...select.options].forEach(o => {
             o.selected = o.dataset.unic === unicFirstValute;
@@ -964,7 +964,7 @@ document.querySelector('.mobile__change').addEventListener('click', event => {
             unicSecondValute = "BTC";
             codeSecondValute = "BTC";
             secondType = "crypto"
-            document.querySelector('.mobile__icon-second img').src = "../images/BTC.png";
+            document.querySelector('.mobile__icon-second img').src = "images/BTC.png";
             const select = document.querySelector('.mobile__select-second');
             [...select.options].forEach(o => {
                 o.selected = o.dataset.unic === unicSecondValute;
@@ -974,7 +974,7 @@ document.querySelector('.mobile__change').addEventListener('click', event => {
             unicSecondValute = "ETH";
             codeSecondValute = "ETH";
             secondType = "crypto"
-            document.querySelector('.mobile__icon-second img').src = "../images/ETH.png";
+            document.querySelector('.mobile__icon-second img').src = "images/ETH.png";
             const select = document.querySelector('.mobile__select-second');
             [...select.options].forEach(o => {
                 o.selected = o.dataset.unic === unicSecondValute;
