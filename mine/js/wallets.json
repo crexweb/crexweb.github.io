@@ -1,0 +1,210 @@
+[
+  {
+    "image": "images/BTC.png",
+    "name": "Bitcoin BTC",
+    "code": "BTC",
+    "uniqueCode": "BTC",
+    "walletAddress": "",
+    "walletMemo": "none"
+  },
+  {
+    "image": "images/NOT.png",
+    "name": "Notcoin NOT",
+    "code": "NOT",
+    "uniqueCode": "NOT",
+    "walletAddress": "",
+    "walletMemo": "none"
+  },
+  {
+    "image": "images/XRP.png",
+    "name": "Ripple XRP",
+    "code": "XRP",
+    "uniqueCode": "XRP",
+    "walletAddress": "",
+    "walletMemo": "none"
+  },
+  {
+    "image": "images/ETC.png",
+    "name": "Ether Classic ETC",
+    "code": "ETC",
+    "uniqueCode": "ETC",
+    "walletAddress": "",
+    "walletMemo": "none"
+  },
+  {
+    "image": "images/DOT.png",
+    "name": "Polkadot DOT",
+    "code": "DOT",
+    "uniqueCode": "DOT",
+    "walletAddress": "",
+    "walletMemo": ""
+  },
+  {
+    "image": "images/BCH.png",
+    "name": "Bitcoin Cash BCH",
+    "code": "BCH",
+    "uniqueCode": "BCH",
+    "walletAddress": "",
+    "walletMemo": "none"
+  },
+  {
+    "image": "images/DASH.png",
+    "name": "Dash DASH",
+    "code": "DASH",
+    "uniqueCode": "DASH",
+    "walletAddress": "",
+    "walletMemo": "none"
+  },
+  {
+    "image": "images/DOGE.png",
+    "name": "Dogecoin DOGE",
+    "code": "DOGE",
+    "uniqueCode": "DOGE",
+    "walletAddress": "",
+    "walletMemo": "none"
+  },
+  {
+    "image": "images/ETH.png",
+    "name": "Ethereum ETH",
+    "code": "ETH",
+    "uniqueCode": "ETH",
+    "walletAddress": "",
+    "walletMemo": "none"
+  },
+  {
+    "image": "images/TON.png",
+    "name": "Toncoin TON",
+    "code": "TON",
+    "uniqueCode": "TON",
+    "walletAddress": "",
+    "walletMemo": "none"
+  },
+  {
+    "image": "images/SOL.png",
+    "name": "Solana SOL",
+    "code": "SOL",
+    "uniqueCode": "SOL",
+    "walletAddress": "",
+    "walletMemo": "none"
+  },
+  {
+    "image": "images/BNB.png",
+    "name": "BNB (BEP20) BNB",
+    "code": "BNB",
+    "uniqueCode": "BNB",
+    "walletAddress": "",
+    "walletMemo": "none"
+  },
+  {
+    "image": "images/LTC.png",
+    "name": "Litecoin LTC",
+    "code": "LTC",
+    "uniqueCode": "LTC",
+    "walletAddress": "",
+    "walletMemo": "none"
+  },
+  {
+    "image": "images/TRX.png",
+    "name": "Tron TRX",
+    "code": "TRX",
+    "uniqueCode": "TRX",
+    "walletAddress": "",
+    "walletMemo": "none"
+  },
+  {
+    "image": "images/DAI.png",
+    "name": "DAI DAI",
+    "code": "DAI",
+    "uniqueCode": "DAI",
+    "walletAddress": "",
+    "walletMemo": "none"
+  },
+  {
+    "image": "images/ZEC.png",
+    "name": "Zcash ZEC",
+    "code": "ZEC",
+    "uniqueCode": "ZEC",
+    "walletAddress": "",
+    "walletMemo": "none"
+  },
+  {
+    "image": "images/USDT_TRC.png",
+    "name": "Tether TRC20 USDT",
+    "code": "USDT",
+    "uniqueCode": "USDTTRC20",
+    "walletAddress": "",
+    "walletMemo": "none"
+  },
+  {
+    "image": "images/USDT_POL.png",
+    "name": "Tether POLYGON USDT",
+    "code": "USDT",
+    "uniqueCode": "USDTPOL",
+    "walletAddress": "",
+    "walletMemo": "none"
+  },
+  {
+    "image": "images/USDT_ARB.png",
+    "name": "Tether ARBITRUM USDT",
+    "code": "USDT",
+    "uniqueCode": "USDTARB",
+    "walletAddress": "",
+    "walletMemo": "none"
+  },
+  {
+    "image": "images/USDT_TON.png",
+    "name": "Tether TON USDT",
+    "code": "USDT",
+    "uniqueCode": "USDTTON",
+    "walletAddress": "",
+    "walletMemo": "none"
+  },
+  {
+    "image": "images/USDT_BEP.png",
+    "name": "Tether BEP20 USDT",
+    "code": "USDT",
+    "uniqueCode": "USDTBEP20",
+    "walletAddress": "",
+    "walletMemo": "none"
+  },
+  {
+    "image": "images/USDT_ERC.png",
+    "name": "Tether ERC20 USDT",
+    "code": "USDT",
+    "uniqueCode": "USDTERC20",
+    "walletAddress": "",
+    "walletMemo": "none"
+  },
+  {
+    "image": "images/USDC_ERC.png",
+    "name": "USDCoin ERC20 USDC",
+    "code": "USDC",
+    "uniqueCode": "USDCERC20",
+    "walletAddress": "",
+    "walletMemo": "none"
+  },
+  {
+    "image": "images/USDC_POL.png",
+    "name": "USDCoin POLYGON USDC",
+    "code": "USDC",
+    "uniqueCode": "USDCPOL",
+    "walletAddress": "",
+    "walletMemo": "none"
+  },
+  {
+    "image": "images/USDC_SOL.png",
+    "name": "USDCoin SOL USDC",
+    "code": "USDC",
+    "uniqueCode": "USDSOL",
+    "walletAddress": "",
+    "walletMemo": "none"
+  },
+  {
+    "image": "images/VISA_UAH.png",
+    "name": "Банковская карта UAH",
+    "code": "UAH",
+    "uniqueCode": "UAH",
+    "walletAddress": "",
+    "walletMemo": "none"
+  }
+]
