@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/style.css?v=3.0">
+    <link rel="stylesheet" href="css/style.css?v=4.0">
 </head>
 <body>
 
@@ -182,28 +182,74 @@
                         <div class="order__subtitle">Checkout</div>
                         <div class="order__summ">Order Total: [Amount] €</div>
 
-                        <div class="order__label"><p>Your Name</p><span>*</span></div>
-                        <div class="order__area">
-                            <div class="order__icon"><img src="images/profile.png" alt="icon"></div>
-                            <input type="text" class="order__input order__input-name" placeholder="Enter your full name">
-                        </div>
+                        <div class="order__block">
 
-                        <div class="order__label"><p>Phone Number</p><span>*</span></div>
-                        <div class="order__area">
-                            <div class="order__icon"><img src="images/phone.png" alt="icon"></div>
-                            <input type="text" class="order__input order__input-phone" placeholder="Enter your phone number">
-                        </div>
+                            <div class="order__point order__point-big">
+                                <div class="order__label"><p>Your Name</p><span>*</span></div>
+                                <div class="order__area">
+                                    <div class="order__icon"><img src="images/profile.png" alt="icon"></div>
+                                    <input type="text" class="order__input order__input-name" placeholder="Enter your full name">
+                                </div>
+                            </div>
 
-                        <div class="order__label"><p>E-Mail</p><span>*</span></div>
-                        <div class="order__area">
-                            <div class="order__icon"><img src="images/email.png" alt="icon"></div>
-                            <input type="text" class="order__input order__input-email" placeholder="Enter your e-mail">
-                        </div>
+                            <div class="order__point">
+                                <div class="order__label"><p>Phone Number</p><span>*</span></div>
+                                <div class="order__area">
+                                    <div class="order__icon"><img src="images/phone.png" alt="icon"></div>
+                                    <input type="text" class="order__input order__input-phone" placeholder="Enter your phone number">
+                                </div>
+                            </div>
 
-                        <div class="order__label"><p>Address</p><span>*</span></div>
-                        <div class="order__area">
-                            <div class="order__icon"><img src="images/map.png" alt="icon"></div>
-                            <input type="text" class="order__input order__input-address" placeholder="Enter full delivery address">
+                            <div class="order__point">
+                                <div class="order__label"><p>E-Mail</p><span>*</span></div>
+                                <div class="order__area">
+                                    <div class="order__icon"><img src="images/email.png" alt="icon"></div>
+                                    <input type="text" class="order__input order__input-email" placeholder="Enter your e-mail">
+                                </div>
+                            </div>
+
+                            <div class="order__point">
+                                <div class="order__label"><p>Country / Region</p><span>*</span></div>
+                                <input type="text" class="order__input" style="display: none;">
+                                <div class="order__country">
+                                    <p>Select from the list</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/></svg>
+                                
+                                    <div class="order__window">
+                                        <div class="order__search">
+                                            <img src="images/search.png" alt="search">
+                                            <input type="text" class="order__search-input">
+                                        </div>
+                                        <div class="order__list">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="order__point">
+                                <div class="order__label"><p>Town / City</p><span>*</span></div>
+                                <div class="order__area">
+                                    <div class="order__icon"><img src="images/city.png" alt="icon"></div>
+                                    <input type="text" class="order__input order__input-city" placeholder="Enter your name city / town">
+                                </div>
+                            </div>
+
+                            <div class="order__point">
+                                <div class="order__label"><p>Postcode / ZIP</p><span>*</span></div>
+                                <div class="order__area">
+                                    <div class="order__icon"><img src="images/zip-code.png" alt="icon"></div>
+                                    <input type="text" class="order__input order__input-zip" placeholder="Enter postcode / ZIP">
+                                </div>
+                            </div>
+
+                            <div class="order__point">
+                                <div class="order__label"><p>Street Address</p><span>*</span></div>
+                                <div class="order__area">
+                                    <div class="order__icon"><img src="images/map.png" alt="icon"></div>
+                                    <input type="text" class="order__input order__input-address" placeholder="House number and street name">
+                                </div>
+                            </div>
+
                         </div>
 
                         <div class="order__message">[Message text]</div>
@@ -329,7 +375,7 @@
     <script src="js/geocheck.js"></script>
     <script src="js/script.js"></script>
     <script src="js/cart.js?v=1.0"></script>
-    <script src="js/order.js?v=1.0"></script>
+    <script src="js/order.js?v=2.0"></script>
     <script src="js/search.js"></script>
 </body>
 </html>
